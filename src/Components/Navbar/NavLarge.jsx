@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NavLarge = () => {
   return (
     <nav>
-      <div className="navbar bg-white shadow-md rounded-md px-32">
+      <div className="navbar fixed z-10 opacity-60 text-black bg-white shadow-md rounded-md px-32">
         <div className="navbar-start">
          
          <div className="nav-logo">
