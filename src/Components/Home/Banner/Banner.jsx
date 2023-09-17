@@ -1,21 +1,28 @@
 import React from "react";
-import bannerImg from "../../../assets/images/new-banner.avif";
+import bannerImg from "../../../assets/images/hero-banner.png";
+
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen md:h-[500px] lg:h-[600px] xl:h-[700px] relative md:pt-28">
-        <div className="absolute inset-0 bg-gradient-to-tr from-black to-transparent opacity-25"></div>
-     <div className="hero min-h-screen bg-cover bg-center" style={{backgroundImage: `url(${bannerImg})`}}>
-  {/* <div className="hero-overlay bg-opacity-40"></div> */}
-  <div className="hero-content text-center text-neutral-content">
+    <>
+      <div className="hero min-h-screen relative md:pt-28">
+        <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-25"></div>
+        <div
+          className="hero min-h-screen bg-cover bg-center"
+          style={{ backgroundImage: `url(${bannerImg})` }}
+        >
+          {/* <div className="hero-overlay bg-opacity-40"></div> */}
+          {/* <div className="hero-content text-center text-white font-serif">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+      <h4 className="mb-5 text-2xl uppercase font-bold">More Flavour For Less</h4>
+      <h1 className="mb-5 text-6xl uppercase font-bold">Taste The Difference</h1>
+     <p>When the going gets tough, the tough get grilling. Bringing heat to your meat. No one can compete with our meat</p>
+      <Link><button className="btn btn-outline text-white border-0 border-x-2 mt-5 hover:bg-black">Our Menus</button></Link>
     </div>
-  </div>
-</div>
-    </div>
+  </div> */}
+        </div>
+      </div>
+    </>
   );
 };
 

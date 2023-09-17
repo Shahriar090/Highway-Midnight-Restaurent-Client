@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const NavLarge = () => {
   return (
     <nav>
-      <div className="navbar fixed z-10 opacity-60 text-black bg-white shadow-md rounded-md px-32">
+      <div className="navbar fixed z-10 opacity-80 text-white bg-black shadow-md rounded-md px-32">
         <div className="navbar-start">
          
          <div className="nav-logo">
-            <img src="/public/restaurant-logo.com.webp" alt="" loading="lazy" className="w-32" />
+            <img src="/public/website-logo.png" alt="" loading="lazy" className="w-28" />
          </div>
         </div>
         <div className="navbar-center hidden lg:flex">

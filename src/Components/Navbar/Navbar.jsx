@@ -7,7 +7,7 @@ import NavLarge from "./NavLarge";
 const Navbar = () => {
   return (
     <nav>
-      <div className="bg-white rounded-md shadow-md flex justify-between items-center p-5 md:hidden lg:hidden">
+      <div className="bg-white rounded-md shadow-md flex justify-between items-center p-2 md:hidden lg:hidden">
         {/* navbar logo */}
         <div className="navbar-start nav-logo">
           <picture>
@@ -48,9 +48,9 @@ const Navbar = () => {
               <h1 className="text-xl"><MdRestaurantMenu></MdRestaurantMenu></h1>
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side z-50">
               <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-80 min-h-full bg-[rgb(11,21,23)] text-white uppercase text-xl font-serif">
+              <ul className="menu p-4 w-80 min-h-full bg-black text-white uppercase text-xl font-serif">
                 {/* Sidebar content here */}
                <li><Link>Home</Link></li>
                <li><Link>About</Link></li>
